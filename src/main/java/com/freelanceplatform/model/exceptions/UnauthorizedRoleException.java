@@ -1,0 +1,7 @@
+package com.freelanceplatform.model.exceptions;
+
+public class UnauthorizedRoleException extends RuntimeException{
+    public UnauthorizedRoleException(String message){
+        super(message);
+    }
+}
